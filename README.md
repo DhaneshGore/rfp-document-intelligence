@@ -8,7 +8,7 @@ unseen RFP (`Bid5_Unseen_RFP`, §3).
 
 ## Demo video
 
-▶️ [Watch the demo on Google Drive](https://drive.google.com/file/d/1ck2irWuxxiAe6O8sHbV5W8evWTl0JXK_/view?usp=sharing)
+▶️ [Watch the demo on Google Drive](https://drive.google.com/file/d/1LUvxr08UdQ0RoUiHRCjj8dXIzuF-v79c/view?usp=sharing)
 
 ## Key features
 
