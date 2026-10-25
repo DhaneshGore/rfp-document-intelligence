@@ -1,0 +1,30 @@
+Extraction run 13977bdace37 for bid 'Bid1' (UI job)
+model: nvidia/nemotron-3-ultra-550b-a55b:free  started: 2026-10-25T04:57:51+00:00  finished: 2026-10-25T05:09:35+00:00
+documents (4): Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf; Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf; JA-207652 Student and Staff Computing Devices FINAL.pdf; Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html
+backup of previous outputs: F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\backup_20261025T045751Z_Bid1
+
+verified    1.00  Bid Number                               JA-207652
+verified    1.00  Title                                    Student and Staff Computing Devices **SOURCING #168884**
+verified    1.00  Due Date                                 July 9, 2024 at 2:00 PM CST
+verified    0.97  Bid Submission Type                      Electronic via iSupplier portal (preferred) or sealed paper submission
+verified    0.94  Term of Bid                              3-year initial term with two 1-year renewal options, not to exceed 5 y
+verified    0.91  Pre Bid Meeting                          June 10, 2024 at 2:00 PM CST via TEAMS video conference; attendance hi
+verified    0.92  Installation                             Yes, installation/deployment/imaging services required (Windows autopi
+not_found   0.60  Bid Bond Requirement                     -
+not_found   0.60  Delivery Date                            -
+not_found   0.60  Payment Terms                            -
+verified    0.99  Any Additional Documentation Required    Form 1295 (Certificate of Interested Parties); Form W-9; Certificate o
+not_found   0.60  MFG for Registration                     -
+verified    1.00  Contract or Cooperative to use           Central Texas Purchasing Alliance (CTPA); Educational Purchasing Coope
+not_found   0.60  Model_no                                 -
+not_found   0.60  Part_no                                  -
+verified    1.00  Product                                  Tier 1 Small Student Chromebook Laptop (Touch) - 1 Each; Tier 2 Large 
+verified    0.97  contact_info                             Buyer: ALZATE, JASMINE, Email: JALZATE@dallasisd.org; Procurement Serv
+verified    1.00  company_name                             Dallas Independent School District
+verified    0.90  Bid Summary                              Dallas ISD is soliciting proposals for student and staff computing dev
+verified    0.96  Product Specification                    Tier 2 Staff Professional Desktop: Intel i7 Processor 14th Gen, 23.8" 
+
+passed=14 failed=0 (unverified=0, error=0) not_found=6  addendum_changes=1  llm_calls=23
+JSON:   F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid1.json
+trace:  F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid1.trace.jsonl
+report: F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid1.report.md

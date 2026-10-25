@@ -1,0 +1,26 @@
+# secrets
+.env
+
+# environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# generated data (rebuild with `python main.py index --all`)
+data/index/
+data/uploads/
+data/models/
+data/backups/
+
+# local backups / incomplete runs written by the Extract Bid Fields job
+output/backup_*/
+output/partial_*/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/settings.local.json

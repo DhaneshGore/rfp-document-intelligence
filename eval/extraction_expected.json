@@ -1,0 +1,677 @@
+{
+  "_about": "Expected Section 8 values for Bid1 and Bid2, taken from the documents (ground truth checked against the indexed text, 2026-10-24). Scored by eval/score_extraction.py. Each field: 'expect' = 'value' or 'null'. 'all_of' = list of groups; each group is a list of acceptable alternatives (case-insensitive substrings) and every group must occur in the extracted value. 'sources' = substrings of acceptable source file names (any cited source matching one is enough). 'null_values' = phrases accepted instead of null when the documents state the field is absent (e.g. 'None', 'Not required'). 'truth' documents the reference value.",
+  "Bid1": {
+    "Bid Number": {
+      "expect": "value",
+      "all_of": [
+        [
+          "JA-207652"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Student and Staff Computing Devices __SOURCING"
+      ],
+      "truth": "JA-207652 (BidNet sourcing #168884)"
+    },
+    "Title": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Student and Staff Computing Devices"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Student and Staff Computing Devices __SOURCING"
+      ],
+      "truth": "Student and Staff Computing Devices"
+    },
+    "Due Date": {
+      "expect": "value",
+      "all_of": [
+        [
+          "July 9, 2024",
+          "07/09/2024",
+          "2024-07-09"
+        ],
+        [
+          "2:00 PM",
+          "14:00"
+        ],
+        [
+          "CST",
+          "CT",
+          "Central"
+        ]
+      ],
+      "sources": [
+        "Addendum 2"
+      ],
+      "truth": "July 9, 2024 at 2:00 PM CST (Addendum 2; originally 27-JUN-2024 14:00)"
+    },
+    "Bid Submission Type": {
+      "expect": "value",
+      "all_of": [
+        [
+          "electronic",
+          "online",
+          "iSupplier"
+        ],
+        [
+          "manual",
+          "paper",
+          "sealed",
+          "hard copy"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Addendum 1"
+      ],
+      "truth": "Electronic via the iSupplier portal preferred; manual submissions to Procurement Services accepted"
+    },
+    "Term of Bid": {
+      "expect": "value",
+      "all_of": [
+        [
+          "3 year",
+          "three (3) year",
+          "three year",
+          "Initial Term: 3"
+        ],
+        [
+          "two",
+          "2"
+        ],
+        [
+          "5 year",
+          "five (5) year",
+          "five year"
+        ]
+      ],
+      "sources": [
+        "JA-207652"
+      ],
+      "truth": "3-year initial term + two 1-year renewals, max 5 years"
+    },
+    "Pre Bid Meeting": {
+      "expect": "value",
+      "all_of": [
+        [
+          "June 10, 2024",
+          "06/10/2024",
+          "10-JUN-2024"
+        ],
+        [
+          "2:00 PM",
+          "14:00",
+          "3:00 PM EDT"
+        ],
+        [
+          "TEAMS",
+          "video",
+          "virtual"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Student and Staff Computing Devices __SOURCING"
+      ],
+      "truth": "June 10, 2024, 2:00 PM CST via TEAMS; encouraged, not mandatory"
+    },
+    "Installation": {
+      "expect": "value",
+      "all_of": [
+        [
+          "yes",
+          "required",
+          "must"
+        ],
+        [
+          "deploy",
+          "imag",
+          "white glove",
+          "install"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Addendum 1"
+      ],
+      "truth": "Yes: white-glove deployment (asset decaling, reporting, etching, delivery), software installation, imaging/enrollment"
+    },
+    "Bid Bond Requirement": {
+      "expect": "null",
+      "null_values": [
+        "not required",
+        "none",
+        "no bid bond"
+      ],
+      "truth": "No bid bond amount or requirement stated (only a generic clause referring to requirements 'noted elsewhere')"
+    },
+    "Delivery Date": {
+      "expect": "value",
+      "all_of": [
+        [
+          "September",
+          "09/2024"
+        ]
+      ],
+      "sources": [
+        "Addendum 1"
+      ],
+      "truth": "Addendum 1 Q&A: quotes for projects expected starting September 2024; no fixed delivery window in the RFP"
+    },
+    "Payment Terms": {
+      "expect": "null",
+      "null_values": [
+        "not stated",
+        "none"
+      ],
+      "truth": "No district payment terms stated (only M/WBE subcontractor payment rules)"
+    },
+    "Any Additional Documentation Required": {
+      "expect": "value",
+      "all_of": [
+        [
+          "1295"
+        ],
+        [
+          "W-9",
+          "W9"
+        ],
+        [
+          "insurance"
+        ],
+        [
+          "certification",
+          "certificate"
+        ],
+        [
+          "M/WBE",
+          "MWBE"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Addendum 1"
+      ],
+      "truth": "Form 1295 (with the response per Addendum 1), W-9, certificate of insurance, reseller factory-authorized certifications, M/WBE forms, interlocal consent forms, felony disclosure, addendum acknowledgements"
+    },
+    "MFG for Registration": {
+      "expect": "null",
+      "null_values": [
+        "factory-authorized",
+        "authorized reseller"
+      ],
+      "truth": "No specific manufacturer named; resellers must submit factory-authorized repair/maintenance certifications"
+    },
+    "Contract or Cooperative to use": {
+      "expect": "value",
+      "all_of": [
+        [
+          "EPCNT",
+          "Educational Purchasing Cooperative of North Texas"
+        ],
+        [
+          "CTPA",
+          "Central Texas Purchasing Alliance"
+        ]
+      ],
+      "sources": [
+        "JA-207652"
+      ],
+      "truth": "Interlocal riders: EPCNT and CTPA"
+    },
+    "Model_no": {
+      "expect": "null",
+      "truth": "No model numbers (minimum specifications by tier)"
+    },
+    "Part_no": {
+      "expect": "null",
+      "truth": "No part / SKU numbers"
+    },
+    "Product": {
+      "expect": "value",
+      "all_of": [
+        [
+          "laptop"
+        ],
+        [
+          "desktop"
+        ],
+        [
+          "monitor",
+          "display"
+        ],
+        [
+          "tablet"
+        ],
+        [
+          "Chromebook"
+        ],
+        [
+          "Tier 3",
+          "Student Windows"
+        ]
+      ],
+      "sources": [
+        "JA-207652"
+      ],
+      "truth": "Laptops (staff/student tiers, Chromebooks), desktops, tablets, display monitors; quantities are estimates on the price lines (not in text); tiers include Tier 1/2 staff desktops, Tier 1/2 staff laptops, Tier 3 student Windows laptop, Chromebooks"
+    },
+    "contact_info": {
+      "expect": "value",
+      "all_of": [
+        [
+          "ALZATE",
+          "Jasmine",
+          "Procurement"
+        ],
+        [
+          "dallasisd.org"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Student and Staff Computing Devices __SOURCING"
+      ],
+      "truth": "Buyer Jasmine Alzate, JALZATE@dallasisd.org (RFP p.1); Procurement Services 972-925-3700, ProcurementCS@dallasisd.org (bid page)",
+      "full_credit_requires": [
+        [
+          "ALZATE",
+          "Jasmine"
+        ]
+      ]
+    },
+    "company_name": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Dallas Independent School District",
+          "Dallas ISD"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Student and Staff Computing Devices __SOURCING"
+      ],
+      "truth": "Dallas Independent School District"
+    },
+    "Bid Summary": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Dallas"
+        ],
+        [
+          "computing devices",
+          "laptop",
+          "desktop"
+        ]
+      ],
+      "sources": [
+        "JA-207652",
+        "Addendum",
+        "Student and Staff"
+      ],
+      "truth": "Generated summary; must be accurate and mention the issuer and what is procured"
+    },
+    "Product Specification": {
+      "expect": "value",
+      "all_of": [
+        [
+          "i5",
+          "i7",
+          "Celeron",
+          "processor"
+        ],
+        [
+          "RAM",
+          "GB"
+        ],
+        [
+          "SSD",
+          "storage",
+          "eMMC"
+        ],
+        [
+          "display",
+          "\""
+        ],
+        [
+          "warranty"
+        ],
+        [
+          "Tier 3",
+          "Student Windows"
+        ]
+      ],
+      "sources": [
+        "JA-207652"
+      ],
+      "truth": "Minimum specs per tier (CPU, RAM, storage, display, OS, warranty) on RFP pp. 3-6"
+    }
+  },
+  "Bid2": {
+    "Bid Number": {
+      "expect": "value",
+      "all_of": [
+        [
+          "BPM044557",
+          "E20P4600040"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Dell Laptops w_Extended Warranty"
+      ],
+      "truth": "BPM044557 (eMMA) / PORFP #E20P4600040"
+    },
+    "Title": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Dell Laptop"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Dell Laptops w_Extended Warranty"
+      ],
+      "truth": "Dell Laptops w/Extended Warranty"
+    },
+    "Due Date": {
+      "expect": "value",
+      "all_of": [
+        [
+          "06/10/2024",
+          "June 10, 2024",
+          "2024-06-10"
+        ],
+        [
+          "2:00 PM",
+          "02:00 PM",
+          "14:00"
+        ],
+        [
+          "EDT",
+          "ET",
+          "Eastern"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Dell Laptops w_Extended Warranty"
+      ],
+      "truth": "06/10/2024 02:00 PM EDT"
+    },
+    "Bid Submission Type": {
+      "expect": "null",
+      "null_values": [
+        "sealed",
+        "eMMA",
+        "electronic",
+        "email"
+      ],
+      "truth": "Not explicitly stated (competitive sealed proposals under COMAR 21.05.03; eMMA solicitation)"
+    },
+    "Term of Bid": {
+      "expect": "null",
+      "null_values": [
+        "90 days",
+        "3 years"
+      ],
+      "truth": "No contract term; quotes valid 90 days; 3-year warranty"
+    },
+    "Pre Bid Meeting": {
+      "expect": "null",
+      "null_values": [
+        "none"
+      ],
+      "truth": "None"
+    },
+    "Installation": {
+      "expect": "null",
+      "null_values": [
+        "not required",
+        "no",
+        "none"
+      ],
+      "truth": "No installation services required (equipment purchase)"
+    },
+    "Bid Bond Requirement": {
+      "expect": "null",
+      "null_values": [
+        "not required",
+        "none"
+      ],
+      "truth": "Not stated"
+    },
+    "Delivery Date": {
+      "expect": "value",
+      "all_of": [
+        [
+          "45 days"
+        ]
+      ],
+      "sources": [
+        "PORFP"
+      ],
+      "truth": "Delivery within 45 days of award"
+    },
+    "Payment Terms": {
+      "expect": "value",
+      "all_of": [
+        [
+          "invoice"
+        ],
+        [
+          "10 days"
+        ]
+      ],
+      "sources": [
+        "PORFP"
+      ],
+      "truth": "Email invoices to STOaccountspayable@treasurer.state.md.us within 10 days of delivery, with contractor details, PORFP number, invoice data and proof of delivery"
+    },
+    "Any Additional Documentation Required": {
+      "expect": "value",
+      "all_of": [
+        [
+          "affidavit"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Affidavit"
+      ],
+      "truth": "Contract Affidavit, Mercury Affidavit, warranty certificate/affidavit upon award, manufacturer Letter of Authorization on request"
+    },
+    "MFG for Registration": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Dell"
+        ]
+      ],
+      "sources": [
+        "PORFP"
+      ],
+      "truth": "Dell (authorized reseller; LOA may be requested)"
+    },
+    "Contract or Cooperative to use": {
+      "expect": "value",
+      "all_of": [
+        [
+          "060B5400007",
+          "Desktop, Laptop and Tablet",
+          "Hardware Master Contract"
+        ]
+      ],
+      "sources": [
+        "PORFP"
+      ],
+      "truth": "Desktop, Laptop and Tablet 2015 Master Contract 060B5400007 (Hardware Master Contract)"
+    },
+    "Model_no": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Latitude 5550",
+          "CC7802"
+        ],
+        [
+          "WD22TB4"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Dell_Laptop_Specs",
+        "Dell Laptops w_Extended Warranty"
+      ],
+      "truth": "Dell Latitude 5550 (SI# CC7802); Dell Thunderbolt 4 Dock WD22TB4"
+    },
+    "Part_no": {
+      "expect": "value",
+      "all_of": [
+        [
+          "210-BLYZ",
+          "CC7802",
+          "WD22TB4",
+          "379-BFNZ"
+        ]
+      ],
+      "sources": [
+        "Dell_Laptop_Specs",
+        "PORFP",
+        "Dell Laptops w_Extended Warranty"
+      ],
+      "truth": "SKUs from the Dell quote (210-BLYZ base, 379-BFNZ CPU, ...); SI# CC7802, WD22TB4"
+    },
+    "Product": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Latitude 5550",
+          "laptop"
+        ],
+        [
+          "WD22TB4",
+          "Dock"
+        ],
+        [
+          "30"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Dell Laptops w_Extended Warranty",
+        "Dell_Laptop_Specs"
+      ],
+      "truth": "30 x Dell Latitude 5550 laptops; 30 x Dell Thunderbolt 4 Dock WD22TB4"
+    },
+    "contact_info": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Tamaira Hawkins",
+          "Hawkins"
+        ],
+        [
+          "410-260-7533"
+        ],
+        [
+          "thawkins@treasurer.state.md.us",
+          "thawkins@"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Dell Laptops w_Extended Warranty"
+      ],
+      "truth": "Tamaira Hawkins, 410-260-7533, thawkins@treasurer.state.md.us"
+    },
+    "company_name": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Treasurer"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Dell Laptops w_Extended Warranty"
+      ],
+      "truth": "State of Maryland Treasurer's Office"
+    },
+    "Bid Summary": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Dell"
+        ],
+        [
+          "Treasurer",
+          "Maryland"
+        ]
+      ],
+      "sources": [
+        "PORFP",
+        "Dell",
+        "Affidavit"
+      ],
+      "truth": "Generated summary; must be accurate"
+    },
+    "Product Specification": {
+      "expect": "value",
+      "all_of": [
+        [
+          "Core Ultra 5",
+          "125U"
+        ],
+        [
+          "16 GB",
+          "16GB"
+        ],
+        [
+          "256 GB",
+          "256GB"
+        ],
+        [
+          "15.6"
+        ],
+        [
+          "warranty",
+          "3 Year",
+          "3 years"
+        ]
+      ],
+      "sources": [
+        "Dell_Laptop_Specs",
+        "PORFP"
+      ],
+      "truth": "Intel Core Ultra 5 125U, 16 GB DDR5, 256 GB NVMe SSD, 15.6\" FHD, Windows 11 Pro, Wi-Fi 6E; 3-year extended warranty"
+    }
+  },
+  "addendum_changes": {
+    "Bid1": [
+      {
+        "field": "Due Date",
+        "previous_any": [
+          "27-JUN-2024",
+          "June 27, 2024",
+          "06/27/2024"
+        ],
+        "value_any": [
+          "July 9, 2024",
+          "07/09/2024"
+        ],
+        "addendum_number": 2
+      }
+    ],
+    "Bid2": []
+  },
+  "_scorer_notes": "2026-10-24: Bid2 Product expected sources now include the Dell quote (a legitimate source for product names/SKUs); expected values unchanged."
+}

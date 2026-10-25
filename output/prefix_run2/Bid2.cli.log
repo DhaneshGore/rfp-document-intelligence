@@ -1,0 +1,26 @@
+Indexing Bid2 as bid 'Bid2' (unchanged files are skipped) ...
+verified    1.00  Bid Number                               BPM044557
+verified    1.00  Title                                    Dell Laptops w/Extended Warranty
+verified    1.00  Due Date                                 06/10/2024 02:00 PM EDT
+verified    0.85  Bid Submission Type                      Sealed Proposals (per COMAR 21.05.03)
+not_found   0.60  Term of Bid                              -
+not_found   0.60  Pre Bid Meeting                          -
+not_found   0.60  Installation                             -
+not_found   0.60  Bid Bond Requirement                     -
+not_found   0.60  Delivery Date                            -
+not_found   0.60  Payment Terms                            -
+verified    0.96  Any Additional Documentation Required    Proposal Affidavit; Contract Affidavit (including Authority affirmatio
+verified    1.00  MFG for Registration                     Dell
+verified    1.00  Contract or Cooperative to use           Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007
+verified    1.00  Model_no                                 Dell Latitude 5550; WD22TB4
+verified    1.00  Part_no                                  210-BLYZ; 379-BFNZ; 619-ARSB; 658-BCSB; 338-CNRG; 338-CNRK; 321-BKTQ; 
+verified    0.91  Product                                  Dell Latitude 5550 XCTO Base (SKU: 210-BLYZ) – configured with Intel C
+verified    1.00  contact_info                             Tamaira Hawkins: thawkins@treasurer.state.md .us, 410-260-7533; James 
+verified    1.00  company_name                             State of Maryland Treasurer's Office
+verified    0.92  Bid Summary                              This bid (BPM044557) is a Purchase Order Request for Proposals for Del
+verified    0.91  Product Specification                    Dell Latitude 5550: Intel Core Ultra 5 125U (12 MB cache, 12 cores, 14
+
+passed=14 failed=0 (unverified=0, error=0) not_found=6  addendum_changes=0  llm_calls=24
+JSON:   output\Bid2.json
+trace:  output\Bid2.trace.jsonl
+report: output\Bid2.report.md

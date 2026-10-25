@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-10-24T01:39:33",
+  "runs": [
+    {
+      "model": "nvidia/nemotron-3.5-lightning:free",
+      "catalogue_status": "verified_free",
+      "qid": "Q1",
+      "bid_id": "Bid1",
+      "question": "What is the revised submission deadline in Bid1?",
+      "answer": "The revised submission deadline in Bid1 is **July 9, 2024 at 2:00 PM CST**, as stated in Addendum No. 2 ([7]). Addendum No. 2 extended the due date from the original RFP schedule. The original submission deadline is not specified in the provided passages.",
+      "llm_latency_s": 17.989,
+      "wall_s": 19.84,
+      "usage": {
+        "prompt_tokens": 1951,
+        "completion_tokens": 1968,
+        "total_tokens": 3919,
+        "cost": 0.0
+      },
+      "served_by": "nvidia/nemotron-3.5-lightning:free",
+      "llm_error": null,
+      "found": true,
+      "citations": [
+        "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1"
+      ],
+      "invalid_refs": [],
+      "ungrounded_values": [],
+      "wrong_bid_citations": [],
+      "missing_facts": [],
+      "forbidden_present": [],
+      "expected_source_cited": true,
+      "verdict": "correct"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Extraction run 170077cda971 for bid 'Bid2' (UI job)
+model: nvidia/nemotron-3-ultra-550b-a55b:free  started: 2026-10-25T06:23:48+00:00  finished: 2026-10-25T06:29:24+00:00
+documents (5): Contract_Affidavit.pdf; Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html; Dell_Laptop_Specs.pdf; Mercury_Affidavit.pdf; PORFP_-_Dell_Laptop_Final.pdf
+backup of previous outputs: F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\backup_20261025T062348Z_Bid2
+
+verified    1.00  Bid Number                               BPM044557
+verified    1.00  Title                                    Dell Laptops w/Extended Warranty
+verified    1.00  Due Date                                 06/10/2024 at 2:00 PM EDT
+verified    0.86  Bid Submission Type                      Electronic portal (eMaryland Marketplace Advantage e-Procurement syste
+not_found   0.60  Term of Bid                              -
+not_found   0.60  Pre Bid Meeting                          -
+not_found   0.60  Installation                             -
+not_found   0.60  Bid Bond Requirement                     -
+verified    1.00  Delivery Date                            Within 45 days of award
+verified    0.95  Payment Terms                            Invoices must be emailed to STOaccountspayable@treasurer.state.md.us w
+verified    0.98  Any Additional Documentation Required    Letter of Authorization (LOA) from Manufacturer or Distributor (for De
+verified    1.00  MFG for Registration                     Dell
+verified    1.00  Contract or Cooperative to use           Desktop, Laptop and Tablet 2015 Master Contract (060B5400007); Hardwar
+verified    0.96  Model_no                                 SI# CC7802; WD22TB4
+verified    1.00  Part_no                                  210-BLYZ; WD22TB4
+verified    1.00  Product                                  SI# CC7802 Dell Latitude 5550 (Model: SI# CC7802, Base SKU: 210-BLYZ) 
+verified    1.00  contact_info                             Tamaira Hawkins, thawkins@treasurer.state.md.us, 410-260-7533
+verified    1.00  company_name                             State of Maryland Treasurer's Office
+verified    0.93  Bid Summary                              This bid (BPM044557) is a Purchase Order Request for Proposals (PORFP)
+verified    0.92  Product Specification                    Dell Latitude 5550: Intel Core Ultra 5 125U, 16GB DDR5 (2x8GB), 256GB 
+
+passed=16 failed=0 (unverified=0, error=0) not_found=4  addendum_changes=0  llm_calls=12
+JSON:   F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid2.json
+trace:  F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid2.trace.jsonl
+report: F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid2.report.md

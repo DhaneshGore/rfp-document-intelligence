@@ -1,0 +1,505 @@
+[
+  {
+    "bid_id": "Bid1",
+    "score": 18.0,
+    "accuracy": 0.9,
+    "strict_accuracy": 0.8,
+    "fields": [
+      {
+        "field": "Bid Number",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "JA-207652",
+        "sources": [
+          "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html p.None"
+        ]
+      },
+      {
+        "field": "Title",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Student and Staff Computing Devices **SOURCING #168884**",
+        "sources": [
+          "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html p.None"
+        ]
+      },
+      {
+        "field": "Due Date",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "July 9, 2024 at 2:00 PM CST",
+        "sources": [
+          "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf p.1"
+        ]
+      },
+      {
+        "field": "Bid Submission Type",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 0.94,
+        "value": "Electronic submission (PDF not required) or manual paper submission with direct edits on PDF",
+        "sources": [
+          "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.4"
+        ]
+      },
+      {
+        "field": "Term of Bid",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 0.87,
+        "value": "3 years initial with two 1-year renewals, maximum 5 years total",
+        "sources": [
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.2"
+        ]
+      },
+      {
+        "field": "Pre Bid Meeting",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 0.91,
+        "value": "June 10, 2024 at 2:00 PM CST via TEAMS video conference; attendance highly encouraged (not mandatory)",
+        "sources": [
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.2"
+        ]
+      },
+      {
+        "field": "Installation",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 0.96,
+        "value": "Yes, installation/deployment/imaging services required (software installation, asset tagging, device deployment, autopilot for Windows, Google Management enroll",
+        "sources": [
+          "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.4",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.7"
+        ]
+      },
+      {
+        "field": "Bid Bond Requirement",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Delivery Date",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Dallas ISD is anticipating requesting quotes for different projects from awarded vendors starting in September of 2024",
+        "sources": [
+          "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.1",
+          "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.2"
+        ]
+      },
+      {
+        "field": "Payment Terms",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Any Additional Documentation Required",
+        "score": 0.5,
+        "verdict": "partial: missing ['1295']",
+        "status": "verified",
+        "confidence": 0.99,
+        "value": "Form W-9 Factory-authorized repair and maintenance certifications Interlocal Agreement Consent Form (CTPA) Interlocal Agreement Consent Form (EPCNT) Representat",
+        "sources": [
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.15",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.17",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.19",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.20",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.25",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.3",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.43",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.57"
+        ]
+      },
+      {
+        "field": "MFG for Registration",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Contract or Cooperative to use",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Central Texas Purchasing Alliance (CTPA) Educational Purchasing Cooperative of North Texas (EPCNT)",
+        "sources": [
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.19",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.20"
+        ]
+      },
+      {
+        "field": "Model_no",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Part_no",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Product",
+        "score": 0.5,
+        "verdict": "partial: missing ['Tier 3']",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Tier 2 Staff Professional Desktop Tier 2 Large Student Chromebook Laptop Tier 1 Staff Basic Laptop Laptops Desktops Tablet devices Display monitors",
+        "sources": [
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.3",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.4",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.5",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.6"
+        ]
+      },
+      {
+        "field": "contact_info",
+        "score": 0.5,
+        "verdict": "partial: missing ['ALZATE']",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Procurement Services, 972-925-3700, ProcurementCS@dallasisd.org",
+        "sources": [
+          "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html p.None"
+        ]
+      },
+      {
+        "field": "company_name",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Dallas Independent School District",
+        "sources": [
+          "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html p.None"
+        ]
+      },
+      {
+        "field": "Bid Summary",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 0.89,
+        "value": "Dallas Independent School District is soliciting proposals for student and staff computing devices under RFP JA-207652. The procurement includes M/WBE participa",
+        "sources": [
+          "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.4",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.16",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.2",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.31",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.50"
+        ]
+      },
+      {
+        "field": "Product Specification",
+        "score": 0.5,
+        "verdict": "partial: missing ['Tier 3']",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Tier 2 Staff Professional Desktop: Enterprise Management Ready; Intel i7 Processor 14th Gen or equivalent; Display: Minimum 23.8\" diagonal Touch Screen; Memory:",
+        "sources": [
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.4",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.5",
+          "JA-207652 Student and Staff Computing Devices FINAL.pdf p.6"
+        ]
+      }
+    ],
+    "addendum_changes": [
+      {
+        "field": "Due Date",
+        "expected": true,
+        "found": true,
+        "correct": true
+      },
+      {
+        "field": "Bid Submission Type",
+        "expected": false,
+        "found": true,
+        "correct": false,
+        "note": "unexpected change: 'Electronic via iSupplier portal or manual sealed envelope' -> 'Electronic submission (PDF not required) or manual paper sub'"
+      }
+    ],
+    "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "llm_calls": 18,
+    "validation": {
+      "passed": 15,
+      "failed": 0,
+      "not_found": 5,
+      "unverified": 0,
+      "error": 0
+    }
+  },
+  {
+    "bid_id": "Bid2",
+    "score": 17.0,
+    "accuracy": 0.85,
+    "strict_accuracy": 0.8,
+    "fields": [
+      {
+        "field": "Bid Number",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "BPM044557",
+        "sources": [
+          "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html p.None"
+        ]
+      },
+      {
+        "field": "Title",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Dell Laptops w/Extended Warranty",
+        "sources": [
+          "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html p.None"
+        ]
+      },
+      {
+        "field": "Due Date",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "06/10/2024 02:00 PM EDT",
+        "sources": [
+          "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html p.None"
+        ]
+      },
+      {
+        "field": "Bid Submission Type",
+        "score": 1.0,
+        "verdict": "correct: states absence / equivalent",
+        "status": "verified",
+        "confidence": 0.85,
+        "value": "Sealed Proposals (per COMAR 21.05.03)",
+        "sources": [
+          "PORFP_-_Dell_Laptop_Final.pdf p.4"
+        ]
+      },
+      {
+        "field": "Term of Bid",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Pre Bid Meeting",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Installation",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Bid Bond Requirement",
+        "score": 1.0,
+        "verdict": "correct: null (absent in documents)",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Delivery Date",
+        "score": 0.0,
+        "verdict": "missing: null although the documents state it",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Payment Terms",
+        "score": 0.0,
+        "verdict": "missing: null although the documents state it",
+        "status": "not_found",
+        "confidence": 0.6,
+        "value": null,
+        "sources": []
+      },
+      {
+        "field": "Any Additional Documentation Required",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 0.96,
+        "value": "Proposal Affidavit Contract Affidavit (including Authority affirmation, Drug and Alcohol-Free Workplace certification, and compliance with State Finance and Pro",
+        "sources": [
+          "Contract_Affidavit.pdf p.1",
+          "Contract_Affidavit.pdf p.2",
+          "Contract_Affidavit.pdf p.3",
+          "Mercury_Affidavit.pdf p.1",
+          "PORFP_-_Dell_Laptop_Final.pdf p.1",
+          "PORFP_-_Dell_Laptop_Final.pdf p.2"
+        ]
+      },
+      {
+        "field": "MFG for Registration",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Dell",
+        "sources": [
+          "PORFP_-_Dell_Laptop_Final.pdf p.1",
+          "PORFP_-_Dell_Laptop_Final.pdf p.2"
+        ]
+      },
+      {
+        "field": "Contract or Cooperative to use",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007",
+        "sources": [
+          "PORFP_-_Dell_Laptop_Final.pdf p.1"
+        ]
+      },
+      {
+        "field": "Model_no",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Dell Latitude 5550 WD22TB4",
+        "sources": [
+          "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html p.None",
+          "Dell_Laptop_Specs.pdf p.1"
+        ]
+      },
+      {
+        "field": "Part_no",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "210-BLYZ 379-BFNZ 619-ARSB 658-BCSB 338-CNRG 338-CNRK 321-BKTQ 409-BCXY 631-BBSQ 370-BBTL 400-BRFT 391-BJHB 583-BLNH 555-BKQC 555-BKLQ 451-BDGX 492-BDMN 346-BKL",
+        "sources": [
+          "Dell_Laptop_Specs.pdf p.1",
+          "Dell_Laptop_Specs.pdf p.2"
+        ]
+      },
+      {
+        "field": "Product",
+        "score": 0.5,
+        "verdict": "partial: missing ['WD22TB4']",
+        "status": "verified",
+        "confidence": 0.91,
+        "value": "Dell Latitude 5550 XCTO Base (SKU: 210-BLYZ) \u2013 configured with Intel Core Ultra 5 125U processor, 16 GB (2\u00d78 GB) DDR5 5600 MT/s RAM, 256 GB M.2 2230 Gen4 NVMe S",
+        "sources": [
+          "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html p.None",
+          "Dell_Laptop_Specs.pdf p.1",
+          "PORFP_-_Dell_Laptop_Final.pdf p.3"
+        ]
+      },
+      {
+        "field": "contact_info",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "Tamaira Hawkins: thawkins@treasurer.state.md .us, 410-260-7533 James Simpson: jsimpson@treasurer.state. md.us, 410-260-6063",
+        "sources": [
+          "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html p.None",
+          "PORFP_-_Dell_Laptop_Final.pdf p.3"
+        ]
+      },
+      {
+        "field": "company_name",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 1.0,
+        "value": "State of Maryland Treasurer's Office",
+        "sources": [
+          "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html p.None",
+          "PORFP_-_Dell_Laptop_Final.pdf p.1",
+          "PORFP_-_Dell_Laptop_Final.pdf p.3"
+        ]
+      },
+      {
+        "field": "Bid Summary",
+        "score": 1.0,
+        "verdict": "correct",
+        "status": "verified",
+        "confidence": 0.92,
+        "value": "This bid (BPM044557) is a Purchase Order Request for Proposals for Dell Laptops with Extended Warranty under a Hardware Master Contract for the Maryland State T",
+        "sources": [
+          "Contract_Affidavit.pdf p.2",
+          "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html p.None",
+          "PORFP_-_Dell_Laptop_Final.pdf p.2",
+          "PORFP_-_Dell_Laptop_Final.pdf p.3"
+        ]
+      },
+      {
+        "field": "Product Specification",
+        "score": 0.5,
+        "verdict": "partial: missing ['16 GB', '256 GB']",
+        "status": "verified",
+        "confidence": 0.91,
+        "value": "Dell Latitude 5550: Intel Core Ultra 5 125U (12\u202fMB cache, 12 cores, 14 threads, up to 4.3\u202fGHz), 16\u202fGB DDR5 5600\u202fMT/s, 256\u202fGB M.2 2230 Gen4 NVMe TLC SSD, 15.6\u2033 F",
+        "sources": [
+          "Dell_Laptop_Specs.pdf p.1"
+        ]
+      }
+    ],
+    "addendum_changes": [],
+    "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "llm_calls": 24,
+    "validation": {
+      "passed": 14,
+      "failed": 0,
+      "not_found": 6,
+      "unverified": 0,
+      "error": 0
+    }
+  }
+]

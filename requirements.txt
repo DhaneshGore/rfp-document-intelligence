@@ -1,0 +1,26 @@
+# Versions verified on Python 3.10.11 / Windows 11 (2026-10-23).
+# Parsing
+docling==2.142.1
+PyMuPDF==1.26.7
+beautifulsoup4==4.13.4
+lxml==5.3.1
+
+# Embeddings, vector store, keyword search, reranking
+sentence-transformers==5.1.2
+torch>=2.2
+transformers==4.49.0
+chromadb==1.5.9
+rank-bm25==0.2.2
+
+# API / UI / config
+fastapi==0.115.5
+uvicorn==0.48.0
+python-multipart>=0.0.9
+httpx==0.28.1
+streamlit==1.31.0
+pydantic>=2.10
+pydantic-settings>=2.7
+python-dotenv>=1.0
+
+# Tests
+pytest>=8.0

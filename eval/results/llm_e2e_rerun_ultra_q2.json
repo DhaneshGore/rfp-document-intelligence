@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-10-24T01:39:04",
+  "runs": [
+    {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "catalogue_status": "verified_free",
+      "qid": "Q2",
+      "bid_id": "Bid1",
+      "question": "What was the original submission deadline before the addendum?",
+      "answer": "The original submission deadline was **27-JUN-2024 14:00:00** (June 27, 2024 at 2:00 PM) as listed in the RFP's Bid Activities schedule [7].  \n\nAddendum No. 2 later extended the due date to **July 9, 2024 at 2:00 PM CST** [2].",
+      "llm_latency_s": 18.769,
+      "wall_s": 52.42,
+      "usage": {
+        "prompt_tokens": 1956,
+        "completion_tokens": 293,
+        "total_tokens": 2249,
+        "cost": 0.0
+      },
+      "served_by": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "llm_error": null,
+      "found": true,
+      "citations": [
+        "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+        "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1"
+      ],
+      "invalid_refs": [],
+      "ungrounded_values": [],
+      "wrong_bid_citations": [],
+      "missing_facts": [],
+      "forbidden_present": [],
+      "expected_source_cited": true,
+      "verdict": "correct"
+    }
+  ]
+}

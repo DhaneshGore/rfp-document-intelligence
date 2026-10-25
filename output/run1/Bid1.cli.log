@@ -1,0 +1,26 @@
+Indexing Bid1 as bid 'Bid1' (unchanged files are skipped) ...
+verified    1.00  Bid Number                               JA-207652
+verified    1.00  Title                                    Student and Staff Computing Devices **SOURCING #168884**
+error       0.00  Due Date                                 -
+error       0.00  Bid Submission Type                      -
+error       0.00  Term of Bid                              -
+error       0.00  Pre Bid Meeting                          -
+error       0.00  Installation                             -
+error       0.00  Bid Bond Requirement                     -
+error       0.00  Delivery Date                            -
+error       0.00  Payment Terms                            -
+error       0.00  Any Additional Documentation Required    -
+error       0.00  MFG for Registration                     -
+error       0.00  Contract or Cooperative to use           -
+not_found   0.60  Model_no                                 -
+not_found   0.60  Part_no                                  -
+verified    0.89  Product                                  Tier 1 Staff Basic Desktop; Tier 2 Staff Professional Desktop; Display
+verified    1.00  contact_info                             Procurement Services; 972-925-3700; ProcurementCS@dallasisd.org
+verified    1.00  company_name                             Dallas Independent School District
+verified    0.93  Bid Summary                              Dallas Independent School District (Dallas ISD) is soliciting proposal
+verified    0.98  Product Specification                    Tier 1 Staff Basic Laptop: Intel i5 CPU 14th Gen or equivalent, 13" di
+
+passed=7 failed=11 (unverified=0, error=11) not_found=2  addendum_changes=0  llm_calls=9
+JSON:   output\Bid1.json
+trace:  output\Bid1.trace.jsonl
+report: output\Bid1.report.md

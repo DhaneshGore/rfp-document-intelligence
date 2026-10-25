@@ -1,0 +1,3120 @@
+{
+  "timestamp": "2026-10-24T01:13:23",
+  "bid_filter": false,
+  "num_questions": 25,
+  "corpus_chunks": 358,
+  "questions_without_relevant_chunks": [],
+  "settings": {
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "chunk_size": 1200,
+    "chunk_overlap": 200,
+    "candidate_pool": 30,
+    "rrf_k": 60
+  },
+  "configs": {
+    "vector": {
+      "aggregate": {
+        "recall@1": 0.56,
+        "recall@3": 0.68,
+        "recall@5": 0.72,
+        "recall@10": 0.88,
+        "mrr@10": 0.6501,
+        "ndcg@10": 0.6593,
+        "avg_latency_s": 1.133
+      },
+      "per_question": [
+        {
+          "id": "b1-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q02",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.38685280723454163,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "Dell_Laptop_Specs.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q04",
+          "first_relevant_rank": 7,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.14285714285714285,
+          "ndcg@10": 0.20438239758848611,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34"
+          ]
+        },
+        {
+          "id": "b1-q05",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36"
+          ]
+        },
+        {
+          "id": "b1-q07",
+          "first_relevant_rank": 7,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.14285714285714285,
+          "ndcg@10": 0.3333333333333333,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 31",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 13",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b1-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8065735963827293,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 7-8",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q09",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 31"
+          ]
+        },
+        {
+          "id": "b1-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 3-4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 14"
+          ]
+        },
+        {
+          "id": "b1-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 19",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 60"
+          ]
+        },
+        {
+          "id": "b1-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q13",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34"
+          ]
+        },
+        {
+          "id": "b2-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8503449055347546,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q02",
+          "first_relevant_rank": 10,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.1,
+          "ndcg@10": 0.2890648263178879,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Contract_Affidavit.pdf, p. 1",
+            "Contract_Affidavit.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 1-2"
+          ]
+        },
+        {
+          "id": "b2-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q05",
+          "first_relevant_rank": null,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q06",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.38685280723454163,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 13",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 12"
+          ]
+        },
+        {
+          "id": "b2-q07",
+          "first_relevant_rank": null,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 26-27"
+          ]
+        },
+        {
+          "id": "b2-q08",
+          "first_relevant_rank": 5,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.23719771276929622,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 35",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 46-47"
+          ]
+        },
+        {
+          "id": "b2-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q10",
+          "first_relevant_rank": null,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 28",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 31"
+          ]
+        },
+        {
+          "id": "b2-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Contract_Affidavit.pdf, p. 2",
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 2"
+          ]
+        },
+        {
+          "id": "b2-q12",
+          "first_relevant_rank": 6,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.16666666666666666,
+          "ndcg@10": 0.3562071871080222,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 40",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39"
+          ]
+        }
+      ]
+    },
+    "bm25": {
+      "aggregate": {
+        "recall@1": 0.64,
+        "recall@3": 0.92,
+        "recall@5": 0.92,
+        "recall@10": 0.96,
+        "mrr@10": 0.7724,
+        "ndcg@10": 0.7852,
+        "avg_latency_s": 0.004
+      },
+      "per_question": [
+        {
+          "id": "b1-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q02",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.7903864795495061,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 25-26"
+          ]
+        },
+        {
+          "id": "b1-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 3",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q05",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b1-q06",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q07",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 1-2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 60",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2"
+          ]
+        },
+        {
+          "id": "b1-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8065735963827293,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.9197207891481876,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 3-4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 14",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q11",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 19",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 25-26"
+          ]
+        },
+        {
+          "id": "b1-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b1-q13",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q01",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5109559939712153,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q02",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "Contract_Affidavit.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q03",
+          "first_relevant_rank": null,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 4-5"
+          ]
+        },
+        {
+          "id": "b2-q04",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q05",
+          "first_relevant_rank": 7,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.14285714285714285,
+          "ndcg@10": 0.3333333333333333,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 46",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 42"
+          ]
+        },
+        {
+          "id": "b2-q07",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 26"
+          ]
+        },
+        {
+          "id": "b2-q09",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 48",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 52"
+          ]
+        },
+        {
+          "id": "b2-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 2",
+            "Contract_Affidavit.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2"
+          ]
+        }
+      ]
+    },
+    "hybrid_no_expansion": {
+      "aggregate": {
+        "recall@1": 0.64,
+        "recall@3": 0.84,
+        "recall@5": 0.88,
+        "recall@10": 0.96,
+        "mrr@10": 0.7387,
+        "ndcg@10": 0.7579,
+        "avg_latency_s": 0.032
+      },
+      "per_question": [
+        {
+          "id": "b1-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q02",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20"
+          ]
+        },
+        {
+          "id": "b1-q04",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5109559939712153,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 35",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b1-q05",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39"
+          ]
+        },
+        {
+          "id": "b1-q07",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 1-2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 13"
+          ]
+        },
+        {
+          "id": "b1-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8315546295836225,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 7-8"
+          ]
+        },
+        {
+          "id": "b1-q09",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 31"
+          ]
+        },
+        {
+          "id": "b1-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 3-4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 14"
+          ]
+        },
+        {
+          "id": "b1-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 19",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b1-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q13",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34"
+          ]
+        },
+        {
+          "id": "b2-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8503449055347546,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q02",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Contract_Affidavit.pdf, p. 3",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2"
+          ]
+        },
+        {
+          "id": "b2-q03",
+          "first_relevant_rank": null,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 4-5",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q05",
+          "first_relevant_rank": 8,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.125,
+          "ndcg@10": 0.31546487678572877,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q06",
+          "first_relevant_rank": 5,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.23719771276929622,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 13",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 12",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 46"
+          ]
+        },
+        {
+          "id": "b2-q07",
+          "first_relevant_rank": 7,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.14285714285714285,
+          "ndcg@10": 0.3333333333333333,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51"
+          ]
+        },
+        {
+          "id": "b2-q08",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6240505200038379,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 35"
+          ]
+        },
+        {
+          "id": "b2-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q10",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Contract_Affidavit.pdf, p. 2",
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 2"
+          ]
+        },
+        {
+          "id": "b2-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 40",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36"
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "aggregate": {
+        "recall@1": 0.68,
+        "recall@3": 0.84,
+        "recall@5": 0.88,
+        "recall@10": 0.96,
+        "mrr@10": 0.772,
+        "ndcg@10": 0.7811,
+        "avg_latency_s": 0.034
+      },
+      "per_question": [
+        {
+          "id": "b1-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q02",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.7903864795495061,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20"
+          ]
+        },
+        {
+          "id": "b1-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8772153153380493,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q05",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39"
+          ]
+        },
+        {
+          "id": "b1-q07",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 1-2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 13"
+          ]
+        },
+        {
+          "id": "b1-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8315546295836225,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 7-8"
+          ]
+        },
+        {
+          "id": "b1-q09",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 3-4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 14"
+          ]
+        },
+        {
+          "id": "b1-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 19",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 52"
+          ]
+        },
+        {
+          "id": "b1-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q13",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34"
+          ]
+        },
+        {
+          "id": "b2-q01",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6240505200038379,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q02",
+          "first_relevant_rank": 5,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.38685280723454163,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q03",
+          "first_relevant_rank": null,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 4-5",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q05",
+          "first_relevant_rank": 8,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.125,
+          "ndcg@10": 0.31546487678572877,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 13",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 46"
+          ]
+        },
+        {
+          "id": "b2-q07",
+          "first_relevant_rank": 7,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.14285714285714285,
+          "ndcg@10": 0.3333333333333333,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51"
+          ]
+        },
+        {
+          "id": "b2-q08",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6240505200038379,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 35"
+          ]
+        },
+        {
+          "id": "b2-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q10",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Contract_Affidavit.pdf, p. 2",
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 40",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36"
+          ]
+        }
+      ]
+    },
+    "hybrid_rerank": {
+      "aggregate": {
+        "recall@1": 0.76,
+        "recall@3": 0.96,
+        "recall@5": 0.96,
+        "recall@10": 1.0,
+        "mrr@10": 0.84,
+        "ndcg@10": 0.851,
+        "avg_latency_s": 1.412
+      },
+      "per_question": [
+        {
+          "id": "b1-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q02",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 26"
+          ]
+        },
+        {
+          "id": "b1-q04",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.4911492931622974,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q05",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b1-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36"
+          ]
+        },
+        {
+          "id": "b1-q07",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 1-2"
+          ]
+        },
+        {
+          "id": "b1-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 7-8"
+          ]
+        },
+        {
+          "id": "b1-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30"
+          ]
+        },
+        {
+          "id": "b1-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 3-4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 14"
+          ]
+        },
+        {
+          "id": "b1-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 19",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 38"
+          ]
+        },
+        {
+          "id": "b1-q13",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 38-39"
+          ]
+        },
+        {
+          "id": "b2-q01",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5706417189553201,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q02",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "Mercury_Affidavit.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b2-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 17",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell_Laptop_Specs.pdf, p. 2"
+          ]
+        },
+        {
+          "id": "b2-q05",
+          "first_relevant_rank": 6,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.16666666666666666,
+          "ndcg@10": 0.3562071871080222,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 43-44",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 11-12"
+          ]
+        },
+        {
+          "id": "b2-q07",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b2-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 46-47"
+          ]
+        },
+        {
+          "id": "b2-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2"
+          ]
+        },
+        {
+          "id": "b2-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Contract_Affidavit.pdf, pp. 2-3",
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        }
+      ]
+    },
+    "hybrid_intent": {
+      "aggregate": {
+        "recall@1": 0.68,
+        "recall@3": 0.84,
+        "recall@5": 0.88,
+        "recall@10": 0.92,
+        "mrr@10": 0.767,
+        "ndcg@10": 0.7685,
+        "avg_latency_s": 0.035
+      },
+      "per_question": [
+        {
+          "id": "b1-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 1-2",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b1-q02",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.7903864795495061,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20"
+          ]
+        },
+        {
+          "id": "b1-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8772153153380493,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q05",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39"
+          ]
+        },
+        {
+          "id": "b1-q07",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 1-2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 13"
+          ]
+        },
+        {
+          "id": "b1-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8315546295836225,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 7-8"
+          ]
+        },
+        {
+          "id": "b1-q09",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 3-4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 14"
+          ]
+        },
+        {
+          "id": "b1-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 19",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 52"
+          ]
+        },
+        {
+          "id": "b1-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q13",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34"
+          ]
+        },
+        {
+          "id": "b2-q01",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6240505200038379,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q02",
+          "first_relevant_rank": 5,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.2,
+          "ndcg@10": 0.38685280723454163,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q03",
+          "first_relevant_rank": null,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 4-5",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q05",
+          "first_relevant_rank": null,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@10": 0.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 3",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 13",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 46"
+          ]
+        },
+        {
+          "id": "b2-q07",
+          "first_relevant_rank": 7,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.14285714285714285,
+          "ndcg@10": 0.3333333333333333,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51"
+          ]
+        },
+        {
+          "id": "b2-q08",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6240505200038379,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 35"
+          ]
+        },
+        {
+          "id": "b2-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q10",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Contract_Affidavit.pdf, p. 2",
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 40",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36"
+          ]
+        }
+      ]
+    },
+    "hybrid_rerank_rrf": {
+      "aggregate": {
+        "recall@1": 0.6,
+        "recall@3": 0.88,
+        "recall@5": 0.96,
+        "recall@10": 1.0,
+        "mrr@10": 0.76,
+        "ndcg@10": 0.7857,
+        "avg_latency_s": 1.46
+      },
+      "per_question": [
+        {
+          "id": "b1-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b1-q02",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 2-3"
+          ]
+        },
+        {
+          "id": "b1-q04",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5437713091520254,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q05",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39"
+          ]
+        },
+        {
+          "id": "b1-q07",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 1-2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 31"
+          ]
+        },
+        {
+          "id": "b1-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8772153153380493,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 7-8",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q09",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30"
+          ]
+        },
+        {
+          "id": "b1-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 3-4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 14"
+          ]
+        },
+        {
+          "id": "b1-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 19",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b1-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 38"
+          ]
+        },
+        {
+          "id": "b1-q13",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b2-q01",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6240505200038379,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q02",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b2-q03",
+          "first_relevant_rank": 4,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.25,
+          "ndcg@10": 0.43067655807339306,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 4-5",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 17"
+          ]
+        },
+        {
+          "id": "b2-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q05",
+          "first_relevant_rank": 6,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.16666666666666666,
+          "ndcg@10": 0.3562071871080222,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 46",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 43-44"
+          ]
+        },
+        {
+          "id": "b2-q07",
+          "first_relevant_rank": 4,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.25,
+          "ndcg@10": 0.43067655807339306,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b2-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34"
+          ]
+        },
+        {
+          "id": "b2-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q10",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2"
+          ]
+        },
+        {
+          "id": "b2-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 2",
+            "Contract_Affidavit.pdf, pp. 2-3"
+          ]
+        },
+        {
+          "id": "b2-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        }
+      ]
+    },
+    "hybrid_rerank_rrf_intent": {
+      "aggregate": {
+        "recall@1": 0.6,
+        "recall@3": 0.88,
+        "recall@5": 0.96,
+        "recall@10": 1.0,
+        "mrr@10": 0.7573,
+        "ndcg@10": 0.7831,
+        "avg_latency_s": 1.48
+      },
+      "per_question": [
+        {
+          "id": "b1-q01",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b1-q02",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q03",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 2-3"
+          ]
+        },
+        {
+          "id": "b1-q04",
+          "first_relevant_rank": 3,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@10": 0.5437713091520254,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q05",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b1-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 39"
+          ]
+        },
+        {
+          "id": "b1-q07",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 1-2",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 31"
+          ]
+        },
+        {
+          "id": "b1-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.8772153153380493,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 7-8",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b1-q09",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 30"
+          ]
+        },
+        {
+          "id": "b1-q10",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 3-4",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 14"
+          ]
+        },
+        {
+          "id": "b1-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 19",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b1-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 38"
+          ]
+        },
+        {
+          "id": "b1-q13",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 36",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b2-q01",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6240505200038379,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3"
+          ]
+        },
+        {
+          "id": "b2-q02",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 4"
+          ]
+        },
+        {
+          "id": "b2-q03",
+          "first_relevant_rank": 4,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.25,
+          "ndcg@10": 0.43067655807339306,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, pp. 4-5",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 17"
+          ]
+        },
+        {
+          "id": "b2-q04",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q05",
+          "first_relevant_rank": 10,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.1,
+          "ndcg@10": 0.2890648263178879,
+          "top3": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 3",
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 1",
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        },
+        {
+          "id": "b2-q06",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 0.6131471927654584,
+          "top3": [
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 46",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, pp. 43-44"
+          ]
+        },
+        {
+          "id": "b2-q07",
+          "first_relevant_rank": 4,
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.25,
+          "ndcg@10": 0.43067655807339306,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 20",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 9"
+          ]
+        },
+        {
+          "id": "b2-q08",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 34"
+          ]
+        },
+        {
+          "id": "b2-q09",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1",
+            "Mercury_Affidavit.pdf, p. 1"
+          ]
+        },
+        {
+          "id": "b2-q10",
+          "first_relevant_rank": 2,
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@10": 0.6309297535714575,
+          "top3": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 51",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+            "PORFP_-_Dell_Laptop_Final.pdf, p. 2"
+          ]
+        },
+        {
+          "id": "b2-q11",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Contract_Affidavit.pdf, p. 3",
+            "Contract_Affidavit.pdf, p. 2",
+            "Contract_Affidavit.pdf, pp. 2-3"
+          ]
+        },
+        {
+          "id": "b2-q12",
+          "first_relevant_rank": 1,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@10": 1.0,
+          "top3": [
+            "Dell_Laptop_Specs.pdf, p. 1",
+            "Dell_Laptop_Specs.pdf, p. 2",
+            "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
+          ]
+        }
+      ]
+    }
+  }
+}

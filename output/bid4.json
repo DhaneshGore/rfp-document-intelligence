@@ -1,0 +1,251 @@
+{
+  "bid_id": "bid4",
+  "fields": {
+    "Bid Number": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Title": {
+      "value": "Addendum to Issue Agreement",
+      "sources": [
+        {
+          "file": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "fdc8c4f2af6108af-0002",
+          "citation": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf, p. 2",
+          "doc_type": "addendum",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.89,
+      "notes": "Title derived from passage describing the addendum",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Due Date": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Bid Submission Type": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Term of Bid": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Pre Bid Meeting": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Installation": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Bid Bond Requirement": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Delivery Date": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Payment Terms": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Any Additional Documentation Required": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "MFG for Registration": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Contract or Cooperative to use": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Model_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Part_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Product": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "contact_info": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "company_name": {
+      "value": "Arvind Fashions Limited",
+      "sources": [
+        {
+          "file": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "fdc8c4f2af6108af-0002",
+          "citation": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf, p. 2",
+          "doc_type": "addendum",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Issuer company named in addendum",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Bid Summary": {
+      "value": "This addendum amends the Issue Agreement for a rights offering of equity shares. It updates representations and warranties for both the Company and Lead Manager regarding compliance with U.S. securities laws, including Regulation S and Rule 144A exemptions. The Company confirms it will not be required to register as an investment company. The Lead Manager agrees to restrictions on solicitation, advertising, and integration of securities. All other terms remain binding unless superseded by this addendum.",
+      "sources": [
+        {
+          "file": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf",
+          "page": 4,
+          "page_end": 4,
+          "chunk_id": "fdc8c4f2af6108af-0010",
+          "citation": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf, p. 4",
+          "doc_type": "addendum",
+          "addendum_number": null
+        },
+        {
+          "file": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf",
+          "page": 3,
+          "page_end": 3,
+          "chunk_id": "fdc8c4f2af6108af-0008",
+          "citation": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf, p. 3",
+          "doc_type": "addendum",
+          "addendum_number": null
+        },
+        {
+          "file": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf",
+          "page": 3,
+          "page_end": 4,
+          "chunk_id": "fdc8c4f2af6108af-0009",
+          "citation": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf, pp. 3-4",
+          "doc_type": "addendum",
+          "addendum_number": null
+        },
+        {
+          "file": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf",
+          "page": 4,
+          "page_end": 4,
+          "chunk_id": "fdc8c4f2af6108af-0012",
+          "citation": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf, p. 4",
+          "doc_type": "addendum",
+          "addendum_number": null
+        },
+        {
+          "file": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf",
+          "page": 4,
+          "page_end": 4,
+          "chunk_id": "fdc8c4f2af6108af-0011",
+          "citation": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf, p. 4",
+          "doc_type": "addendum",
+          "addendum_number": null
+        },
+        {
+          "file": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf",
+          "page": 4,
+          "page_end": 4,
+          "chunk_id": "fdc8c4f2af6108af-0013",
+          "citation": "1st-Addendum-to-the-Issue-Agreement-dated-March-12-2020.pdf, p. 4",
+          "doc_type": "addendum",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.89,
+      "notes": "Summary based on addendum clauses.",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Product Specification": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    }
+  },
+  "addendum_changes": [],
+  "validation": {
+    "passed": 3,
+    "failed": 0,
+    "not_found": 17,
+    "unverified": 0,
+    "error": 0
+  },
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "generated_at": "2026-10-25T06:56:09+00:00",
+  "llm_calls": 8
+}

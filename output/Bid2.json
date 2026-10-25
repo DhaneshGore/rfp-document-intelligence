@@ -1,0 +1,466 @@
+{
+  "bid_id": "Bid2",
+  "fields": {
+    "Bid Number": {
+      "value": "BPM044557",
+      "sources": [
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "2b2ddcee8b5e1451-0001",
+          "citation": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html, section \"Basic Information\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "cdc9e2078a8d0d5f-0000",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Solicitation number from bid page and eMMA project number in RFP",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Title": {
+      "value": "Dell Laptops w/Extended Warranty",
+      "sources": [
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "2b2ddcee8b5e1451-0001",
+          "citation": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html, section \"Basic Information\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Title listed on bid information page",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Due Date": {
+      "value": "06/10/2024 at 2:00 PM EDT",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "cdc9e2078a8d0d5f-0000",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "2b2ddcee8b5e1451-0003",
+          "citation": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html, section \"Dates\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Proposal due date per RFP and bid page",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Bid Submission Type": {
+      "value": "Electronic portal (eMaryland Marketplace Advantage e-Procurement system)",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "cdc9e2078a8d0d5f-0000",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.86,
+      "notes": "Only electronic submission via eMMA",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Term of Bid": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents; Focused retry (not_found_with_cue) did not yield a better verified value (not_found); kept",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Pre Bid Meeting": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Installation": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents: Not mentioned in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Bid Bond Requirement": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Delivery Date": {
+      "value": "Within 45 days of award",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "cdc9e2078a8d0d5f-0001",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "RFP states delivery within 45 days of award; removed unrelated clause(s) from the value: ['product due date listed as 06/10/2024']",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Payment Terms": {
+      "value": "Invoices must be emailed to STOaccountspayable@treasurer.state.md.us within 10 days of delivery, including contractor name, address, tax ID, phone, PORFP number, date, invoice number, amount due, and proof of delivery with serial numbers.",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "cdc9e2078a8d0d5f-0001",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Invoicing instructions provided; no explicit payment terms (e.g., Net 30) stated.",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Any Additional Documentation Required": {
+      "value": [
+        "Letter of Authorization (LOA) from Manufacturer or Distributor (for Dell authorized reseller)",
+        "Mercury Affidavit (https://doit.maryland.gov/contracts/Documents/hardware_contract/hwmercury_affidavit.pdf)",
+        "Warranty certificate or Affidavit (to be presented upon award for Manufacturer's Extended Warranty)",
+        "Proof of delivery including packing slip or delivery confirmation, and equipment serial numbers",
+        "Invoice with contractor name, mailing address, social security number or Federal Tax ID number, phone number, PORFP number, date, invoice number, and amount due",
+        "Disclosure of beneficial ownership filing with Secretary of State (when aggregate contracts reach $100,000)"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "cdc9e2078a8d0d5f-0001",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "page_end": 3,
+          "chunk_id": "cdc9e2078a8d0d5f-0002",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "Contract_Affidavit.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "47e52ab1b4c00bfe-0002",
+          "citation": "Contract_Affidavit.pdf, p. 1",
+          "doc_type": "affidavit",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "Extracted from PORFP requirements and affidavit provisions",
+      "status": "verified",
+      "attempts": 1
+    },
+    "MFG for Registration": {
+      "value": "Dell",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "cdc9e2078a8d0d5f-0001",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "cdc9e2078a8d0d5f-0000",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Bidder must be authorized Dell reseller",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Contract or Cooperative to use": {
+      "value": [
+        "Desktop, Laptop and Tablet 2015 Master Contract (060B5400007)",
+        "Hardware Master Contract"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "cdc9e2078a8d0d5f-0000",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 1",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Master Contractors must hold contract 060B5400007",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Model_no": {
+      "value": [
+        "SI# CC7802",
+        "WD22TB4"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "page_end": 3,
+          "chunk_id": "cdc9e2078a8d0d5f-0002",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.96,
+      "notes": "Model numbers from RFP product list",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Part_no": {
+      "value": [
+        "210-BLYZ",
+        "WD22TB4"
+      ],
+      "sources": [
+        {
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "bb4b1d98b21a925a-0000",
+          "citation": "Dell_Laptop_Specs.pdf, p. 1",
+          "doc_type": "specs",
+          "addendum_number": null
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "page_end": 3,
+          "chunk_id": "cdc9e2078a8d0d5f-0002",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Base laptop SKU and dock SKU from specs and RFP",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Product": {
+      "value": [
+        "SI# CC7802 Dell Latitude 5550 (Model: SI# CC7802, Base SKU: 210-BLYZ) - Qty: 30",
+        "Dell Thunderbolt 4 Dock - WD22TB4 (Model: WD22TB4) - Qty: 30"
+      ],
+      "sources": [
+        {
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "bb4b1d98b21a925a-0000",
+          "citation": "Dell_Laptop_Specs.pdf, p. 1",
+          "doc_type": "specs",
+          "addendum_number": null
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "page_end": 3,
+          "chunk_id": "cdc9e2078a8d0d5f-0002",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Laptop line item from RFP with detailed specs from quote; dock line item from RFP only",
+      "status": "verified",
+      "attempts": 1
+    },
+    "contact_info": {
+      "value": "Tamaira Hawkins, thawkins@treasurer.state.md.us, 410-260-7533",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "page_end": 3,
+          "chunk_id": "cdc9e2078a8d0d5f-0002",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "2b2ddcee8b5e1451-0004",
+          "citation": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html, section \"Contact Information\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Agency procurement officer contact details",
+      "status": "verified",
+      "attempts": 1
+    },
+    "company_name": {
+      "value": "State of Maryland Treasurer's Office",
+      "sources": [
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "2b2ddcee8b5e1451-0001",
+          "citation": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html, section \"Basic Information\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Issuing organization per bid page",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Bid Summary": {
+      "value": "This bid (BPM044557) is a Purchase Order Request for Proposals (PORFP) for 30 Dell Latitude 5550 laptops and 30 Dell Thunderbolt 4 docks with a 3-year extended warranty for the Maryland State Treasurer's Office. Questions are due by 06/01/2024 at 2:00 PM EDT, and delivery is required by 06/10/2024. The solicitation is currently closed. The contract includes drug and alcohol-free workplace certifications per COMAR 21.11.08.",
+      "sources": [
+        {
+          "file": "Contract_Affidavit.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "47e52ab1b4c00bfe-0005",
+          "citation": "Contract_Affidavit.pdf, p. 2",
+          "doc_type": "affidavit",
+          "addendum_number": null
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "cdc9e2078a8d0d5f-0001",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 2",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "page_end": 3,
+          "chunk_id": "cdc9e2078a8d0d5f-0002",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "2b2ddcee8b5e1451-0000",
+          "citation": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html, section \"BPM044557 - Dell Laptops w/Extended Warranty\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.93,
+      "notes": "Summary based on RFP, scope, bid page, and affidavit.",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Product Specification": {
+      "value": [
+        "Dell Latitude 5550: Intel Core Ultra 5 125U, 16GB DDR5 (2x8GB), 256GB M.2 NVMe SSD, 15.6\" FHD 1920x1080 IPS non-touch, Intel Wi-Fi 6E AX211, 54Wh battery, 65W USB-C adapter, 3-year Dell Limited Hardware Warranty Extended from delivery date",
+        "Dell Thunderbolt 4 Dock WD22TB4: specifications not provided in documents"
+      ],
+      "sources": [
+        {
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 1,
+          "page_end": 1,
+          "chunk_id": "bb4b1d98b21a925a-0000",
+          "citation": "Dell_Laptop_Specs.pdf, p. 1",
+          "doc_type": "specs",
+          "addendum_number": null
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "page_end": 3,
+          "chunk_id": "cdc9e2078a8d0d5f-0002",
+          "citation": "PORFP_-_Dell_Laptop_Final.pdf, p. 3",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Laptop specs from quote; warranty from RFP; dock specs absent",
+      "status": "verified",
+      "attempts": 1
+    }
+  },
+  "addendum_changes": [],
+  "validation": {
+    "passed": 16,
+    "failed": 0,
+    "not_found": 4,
+    "unverified": 0,
+    "error": 0
+  },
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "generated_at": "2026-10-25T06:29:24+00:00",
+  "llm_calls": 12
+}

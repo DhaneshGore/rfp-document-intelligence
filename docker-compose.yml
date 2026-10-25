@@ -1,0 +1,30 @@
+services:
+  rfp:
+    build: .
+    image: rfp-intelligence:latest
+    container_name: rfp-intelligence
+    # Runtime settings and the OpenRouter key, read from the local .env (never baked into the image)
+    env_file:
+      - .env
+    # Container-specific overrides (take precedence over .env)
+    environment:
+      API_HOST: 0.0.0.0                     # reachable from the host (API docs on :8000)
+      API_PORT: "8000"
+      API_URL: http://127.0.0.1:8000        # the UI calls the API inside the same container
+      STREAMLIT_SERVER_ADDRESS: 0.0.0.0     # Streamlit listens on all interfaces
+    ports:
+      - "8501:8501"   # Streamlit UI
+      - "8000:8000"   # FastAPI (/docs)
+    volumes:
+      # Persistent container state, kept separate from the host's data/ and output/ folders
+      - rfp_data:/app/data        # index (Chroma + manifest), uploads, Docling / Hugging Face models
+      - rfp_output:/app/output    # extraction outputs (<bid>.json, .report.md, .trace.jsonl, .cli.log)
+      # Original bid folders, read-only
+      - ./Bid1:/app/Bid1:ro
+      - ./Bid2:/app/Bid2:ro
+    init: true
+    restart: unless-stopped
+
+volumes:
+  rfp_data:
+  rfp_output:

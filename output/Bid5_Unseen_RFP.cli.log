@@ -1,0 +1,30 @@
+Extraction run 5a5df3c41c9e for bid 'Bid5_Unseen_RFP' (UI job)
+model: nvidia/nemotron-3-ultra-550b-a55b:free  started: 2026-10-25T08:00:29+00:00  finished: 2026-10-25T08:04:55+00:00
+documents (1): 855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf
+backup of previous outputs: none (no earlier outputs)
+
+not_found   0.60  Bid Number                               -
+not_found   0.60  Title                                    -
+not_found   0.60  Due Date                                 -
+verified    0.90  Bid Submission Type                      Sealed paper envelopes (two-envelope system) unless PDS specifies elec
+not_found   0.60  Term of Bid                              -
+not_found   0.60  Pre Bid Meeting                          -
+verified    0.87  Installation                             Yes, construction and installation services are required as part of EP
+verified    0.91  Bid Bond Requirement                     Proposal Security required per ITP 19; amount and currency to be speci
+not_found   0.60  Delivery Date                            -
+verified    0.94  Payment Terms                            Per Sub-Clause 14.7: payments within 14 days after receipt of statemen
+verified    0.97  Any Additional Documentation Required    Beneficial Ownership Disclosure Form; Form of Proposal Security - Dema
+not_found   0.60  MFG for Registration                     -
+not_found   0.60  Contract or Cooperative to use           -
+not_found   0.60  Model_no                                 -
+not_found   0.60  Part_no                                  -
+not_found   0.60  Product                                  -
+not_found   0.60  contact_info                             -
+not_found   0.60  company_name                             -
+verified    0.89  Bid Summary                              This RFP seeks proposals for EPC/Turnkey Works under a single responsi
+not_found   0.60  Product Specification                    -
+
+passed=6 failed=0 (unverified=0, error=0) not_found=14  addendum_changes=0  llm_calls=12
+JSON:   F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid5_Unseen_RFP.json
+trace:  F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid5_Unseen_RFP.trace.jsonl
+report: F:\Emplay\Assignment-Data-Statements (AI Engineer-Emplay Inc)\output\Bid5_Unseen_RFP.report.md

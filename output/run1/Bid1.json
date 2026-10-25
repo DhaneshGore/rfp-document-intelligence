@@ -1,0 +1,378 @@
+{
+  "bid_id": "Bid1",
+  "fields": {
+    "Bid Number": {
+      "value": "JA-207652",
+      "sources": [
+        {
+          "file": "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "32bc984e496cde0c-0001",
+          "citation": "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html, section \"Basic Information\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Also referenced as Sourcing #168884",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Title": {
+      "value": "Student and Staff Computing Devices **SOURCING #168884**",
+      "sources": [
+        {
+          "file": "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "32bc984e496cde0c-0001",
+          "citation": "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html, section \"Basic Information\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Also referred to as RFP JA-207652 Student and Staff Computing Devices in addenda",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Due Date": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Bid Submission Type": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Term of Bid": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Pre Bid Meeting": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Installation": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Bid Bond Requirement": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Delivery Date": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Payment Terms": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Any Additional Documentation Required": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "MFG for Registration": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Contract or Cooperative to use": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Model output stopped at the token limit (finish_reason=length); raise LLM_MAX_TOKENS",
+      "status": "error",
+      "attempts": 2
+    },
+    "Model_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Part_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Product": {
+      "value": [
+        "Tier 1 Staff Basic Desktop",
+        "Tier 2 Staff Professional Desktop",
+        "Display Monitor - Touch",
+        "Tier 2 Large Student Chromebook Laptop",
+        "Tier 1 Staff Basic Laptop"
+      ],
+      "sources": [
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 37,
+          "page_end": 37,
+          "chunk_id": "1f39d9739ac21870-0148",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 37",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 5,
+          "page_end": 5,
+          "chunk_id": "1f39d9739ac21870-0020",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 5",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 40,
+          "page_end": 40,
+          "chunk_id": "1f39d9739ac21870-0182",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 40",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 4,
+          "page_end": 4,
+          "chunk_id": "1f39d9739ac21870-0015",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 40,
+          "page_end": 40,
+          "chunk_id": "1f39d9739ac21870-0178",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 40",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 6,
+          "page_end": 6,
+          "chunk_id": "1f39d9739ac21870-0022",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 6",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 40,
+          "page_end": 40,
+          "chunk_id": "1f39d9739ac21870-0180",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 40",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.89,
+      "notes": "Product categories/tier names mentioned in RFP; quantities not specified in passages",
+      "status": "verified",
+      "attempts": 1
+    },
+    "contact_info": {
+      "value": "Procurement Services; 972-925-3700; ProcurementCS@dallasisd.org",
+      "sources": [
+        {
+          "file": "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "32bc984e496cde0c-0004",
+          "citation": "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html, section \"Contact Information\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "No individual name provided",
+      "status": "verified",
+      "attempts": 1
+    },
+    "company_name": {
+      "value": "Dallas Independent School District",
+      "sources": [
+        {
+          "file": "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html",
+          "page": null,
+          "page_end": null,
+          "chunk_id": "32bc984e496cde0c-0001",
+          "citation": "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html, section \"Basic Information\"",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Also known as Dallas ISD",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Bid Summary": {
+      "value": "Dallas Independent School District (Dallas ISD) is soliciting proposals for student and staff computing devices under RFP JA-207652. The solicitation includes requirements for Minority/Women Business Enterprise (M/WBE) prime self-performance up to 50% of the M/WBE goal, submission of Form 1295 with the response, and compliance with criminal background checks and identification badging for vendor personnel. Contracts resulting from this RFP require formal approval by the District's Board of Trustees and issuance of a purchase order before any goods or services are delivered. Vendors must adhere to the PDF submission format unless responding electronically, and any deviations from the solicitation terms must be clearly noted in the proposal.",
+      "sources": [
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 50,
+          "page_end": 50,
+          "chunk_id": "1f39d9739ac21870-0232",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 50",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 2,
+          "page_end": 2,
+          "chunk_id": "1f39d9739ac21870-0005",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 2",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 21,
+          "page_end": 21,
+          "chunk_id": "1f39d9739ac21870-0079",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 21",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "page_end": 4,
+          "chunk_id": "3c8a101930793a73-0010",
+          "citation": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf, p. 4",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 31,
+          "page_end": 31,
+          "chunk_id": "1f39d9739ac21870-0124",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 31",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 31,
+          "page_end": 31,
+          "chunk_id": "1f39d9739ac21870-0125",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 31",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 16,
+          "page_end": 16,
+          "chunk_id": "1f39d9739ac21870-0051",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 16",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.93,
+      "notes": "Summary generated from RFP and addendum passages.",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Product Specification": {
+      "value": "Tier 1 Staff Basic Laptop: Intel i5 CPU 14th Gen or equivalent, 13\" display, 16GB DDR5 RAM, 512GB NVMe SSD, Windows 11 or Mac OS, 3-year warranty. Tier 2 Staff Professional Desktop: Intel i7 Processor 14th Gen or equivalent, 23.8\" Touch Screen, 32GB DDR5 RAM, 1TB NVMe SSD, Windows 11 Pro or Mac OS. Tier 2 Large Student Chromebook Laptop: Intel Celeron N100 or equivalent, 14\" Non-Touch, 8GB DDR5, 128GB eMMC, Chrome OS, 1-year warranty.",
+      "sources": [
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 5,
+          "page_end": 5,
+          "chunk_id": "1f39d9739ac21870-0020",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 5",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 4,
+          "page_end": 4,
+          "chunk_id": "1f39d9739ac21870-0015",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 4",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+          "page": 6,
+          "page_end": 6,
+          "chunk_id": "1f39d9739ac21870-0022",
+          "citation": "JA-207652 Student and Staff Computing Devices FINAL.pdf, p. 6",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "Minimum hardware requirements for each tier as specified in RFP",
+      "status": "verified",
+      "attempts": 1
+    }
+  },
+  "addendum_changes": [],
+  "validation": {
+    "passed": 7,
+    "failed": 11,
+    "not_found": 2,
+    "unverified": 0,
+    "error": 11
+  },
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "generated_at": "2026-10-24T15:52:00+00:00",
+  "llm_calls": 9
+}

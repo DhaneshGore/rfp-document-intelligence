@@ -1,0 +1,405 @@
+{
+  "bid_id": "Bid5_Unseen_RFP",
+  "fields": {
+    "Bid Number": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents; Focused retry (not_found_with_cue) did not yield a better verified value (not_found); kept",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Title": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents; Focused retry (not_found_with_cue) did not yield a better verified value (not_found); kept",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Due Date": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents; Focused retry (not_found_with_cue) did not yield a better verified value (not_found); kept",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Bid Submission Type": {
+      "value": "Sealed paper envelopes (two-envelope system) unless PDS specifies electronic submission",
+      "sources": [
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 34,
+          "page_end": 34,
+          "chunk_id": "8e1284cd472b7e03-0082",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 34",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 10,
+          "page_end": 10,
+          "chunk_id": "8e1284cd472b7e03-0026",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 10",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 35,
+          "page_end": 35,
+          "chunk_id": "8e1284cd472b7e03-0084",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 35",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 26,
+          "page_end": 26,
+          "chunk_id": "8e1284cd472b7e03-0062",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 26",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 58,
+          "page_end": 58,
+          "chunk_id": "8e1284cd472b7e03-0141",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 58",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 57,
+          "page_end": 57,
+          "chunk_id": "8e1284cd472b7e03-0139",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 57",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.9,
+      "notes": "Default is sealed paper; electronic optional per PDS",
+      "status": "verified",
+      "attempts": 2
+    },
+    "Term of Bid": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Pre Bid Meeting": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents; Focused retry (not_found_with_cue) did not yield a better verified value (not_found); kept",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Installation": {
+      "value": "Yes, construction and installation services are required as part of EPC/Turnkey scope",
+      "sources": [
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 113,
+          "page_end": 113,
+          "chunk_id": "8e1284cd472b7e03-0270",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 113",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 104,
+          "page_end": 104,
+          "chunk_id": "8e1284cd472b7e03-0244",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 104",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 152,
+          "page_end": 152,
+          "chunk_id": "8e1284cd472b7e03-0364",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 152",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 4,
+          "page_end": 4,
+          "chunk_id": "8e1284cd472b7e03-0007",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 4",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 142,
+          "page_end": 142,
+          "chunk_id": "8e1284cd472b7e03-0338",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 142",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.87,
+      "notes": "EPC/Turnkey includes construction/installation",
+      "status": "verified",
+      "attempts": 2
+    },
+    "Bid Bond Requirement": {
+      "value": "Proposal Security required per ITP 19; amount and currency to be specified in RFP (template placeholders). Form: Demand Guarantee.",
+      "sources": [
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 129,
+          "page_end": 131,
+          "chunk_id": "8e1284cd472b7e03-0312",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, pp. 129-131",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 56,
+          "page_end": 56,
+          "chunk_id": "8e1284cd472b7e03-0136",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 56",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.91,
+      "notes": "ITP 19 indicates Proposal Security may be required; actual amount not filled in provided passages.",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Delivery Date": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Payment Terms": {
+      "value": "Per Sub-Clause 14.7: payments within 14 days after receipt of statements; final payment within 56 days after suspension notification. Retention money release per Sub-Clause 14.9 upon Taking-Over Certificate.",
+      "sources": [
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 202,
+          "page_end": 202,
+          "chunk_id": "8e1284cd472b7e03-0462",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 202",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.94,
+      "notes": "Contract payment conditions referenced; agency invoicing terms not explicitly stated as Net 30 etc.",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Any Additional Documentation Required": {
+      "value": [
+        "Beneficial Ownership Disclosure Form",
+        "Form of Proposal Security - Demand Guarantee",
+        "Current Contract Commitments / Works in Progress form",
+        "Contractor's Equipment form",
+        "Code of Conduct compliance acknowledgment",
+        "Section IV Proposal Forms"
+      ],
+      "sources": [
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 126,
+          "page_end": 126,
+          "chunk_id": "8e1284cd472b7e03-0304",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 126",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 105,
+          "page_end": 106,
+          "chunk_id": "8e1284cd472b7e03-0251",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, pp. 105-106",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 226,
+          "page_end": 226,
+          "chunk_id": "8e1284cd472b7e03-0517",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 226",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 129,
+          "page_end": 131,
+          "chunk_id": "8e1284cd472b7e03-0312",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, pp. 129-131",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 112,
+          "page_end": 112,
+          "chunk_id": "8e1284cd472b7e03-0265",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 112",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.97,
+      "notes": "Forms identified across proposal submission and post-award requirements.",
+      "status": "verified",
+      "attempts": 1
+    },
+    "MFG for Registration": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Contract or Cooperative to use": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Model_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Part_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Product": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents; Focused retry (not_found_with_cue) did not yield a better verified value (not_found); kept",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "contact_info": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "company_name": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents; Focused retry (not_found_with_cue) did not yield a better verified value (not_found); kept",
+      "status": "not_found",
+      "attempts": 1
+    },
+    "Bid Summary": {
+      "value": "This RFP seeks proposals for EPC/Turnkey Works under a single responsibility contract. The Employer's Requirements define the scope, specifications, drawings, and environmental/social requirements. Proposers must submit a work program covering design, construction, testing, commissioning, and potential operation/maintenance. The contract includes provisions for SEA/SH prevention and requires compliance with applicable standards.",
+      "sources": [
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 150,
+          "page_end": 151,
+          "chunk_id": "8e1284cd472b7e03-0361",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, pp. 150-151",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 140,
+          "page_end": 140,
+          "chunk_id": "8e1284cd472b7e03-0329",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 140",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 18,
+          "page_end": 18,
+          "chunk_id": "8e1284cd472b7e03-0041",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 18",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 109,
+          "page_end": 109,
+          "chunk_id": "8e1284cd472b7e03-0260",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 109",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "file": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf",
+          "page": 8,
+          "page_end": 8,
+          "chunk_id": "8e1284cd472b7e03-0019",
+          "citation": "855680633-SPD-RFP-Works-EPC-Turnkey-Single-Stage-SEASH-FEB-2025.pdf, p. 8",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.89,
+      "notes": "Summary based on RFP sections",
+      "status": "verified",
+      "attempts": 1
+    },
+    "Product Specification": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.6,
+      "notes": "Not found in documents",
+      "status": "not_found",
+      "attempts": 1
+    }
+  },
+  "addendum_changes": [],
+  "validation": {
+    "passed": 6,
+    "failed": 0,
+    "not_found": 14,
+    "unverified": 0,
+    "error": 0
+  },
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "generated_at": "2026-10-25T08:04:55+00:00",
+  "llm_calls": 12
+}

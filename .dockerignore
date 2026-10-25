@@ -1,0 +1,34 @@
+# secrets and local configuration (the key is supplied at runtime via env_file)
+.env
+.env.*
+!.env.example
+
+# environments, caches, VCS, editors
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.gitignore
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# local data and generated outputs (the container uses its own volumes)
+data/
+output/
+
+# bid folders are mounted read-only at runtime, not copied into the image
+Bid*/
+
+# not needed at runtime
+tests/
+eval/results/
+*.pdf
+Dockerfile
+docker-compose.yml
+.dockerignore

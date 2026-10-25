@@ -1,0 +1,26 @@
+Indexing Bid2 as bid 'Bid2' (unchanged files are skipped) ...
+verified    1.00  Bid Number                               BPM044557
+verified    1.00  Title                                    Dell Laptops w/Extended Warranty
+verified    1.00  Due Date                                 06/10/2024 02:00 PM EDT
+verified    0.92  Bid Submission Type                      Sealed Proposals
+not_found   0.60  Term of Bid                              -
+not_found   0.60  Pre Bid Meeting                          -
+not_found   0.60  Installation                             -
+not_found   0.60  Bid Bond Requirement                     -
+not_found   0.60  Delivery Date                            -
+not_found   0.60  Payment Terms                            -
+verified    0.98  Any Additional Documentation Required    Contract Affidavit (including Authority affirmation and Drug and Alcoh
+verified    1.00  MFG for Registration                     Dell
+verified    1.00  Contract or Cooperative to use           Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007
+verified    1.00  Model_no                                 Dell Latitude 5550; WD22TB4
+verified    1.00  Part_no                                  SI# CC7802; 210-BLYZ; 379-BFNZ; 619-ARSB; 658-BCSB; 338-CNRG; 338-CNRK
+verified    1.00  Product                                  Dell Latitude 5550 XCTO Base (SKU: 210-BLYZ)
+verified    1.00  contact_info                             Tamaira Hawkins, thawkins@treasurer.state.md.us, 410-260-7533
+verified    1.00  company_name                             State of Maryland Treasurer's Office
+verified    0.93  Bid Summary                              This bid (BPM044557) is for Dell Laptops with Extended Warranty under 
+verified    0.95  Product Specification                    CPU: Intel Core Ultra 5 125U (12 MB cache, 12 cores, 14 threads, up to
+
+passed=14 failed=0 (unverified=0, error=0) not_found=6  addendum_changes=0  llm_calls=15
+JSON:   output\Bid2.json
+trace:  output\Bid2.trace.jsonl
+report: output\Bid2.report.md

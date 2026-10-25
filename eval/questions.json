@@ -1,0 +1,142 @@
+{
+  "description": "Retrieval evaluation set. A retrieved chunk is relevant to a question if it matches ANY entry in `relevant`: its file name contains `file`, its page range overlaps `pages` (if given; omitted for HTML pages which have no page numbers), and its text contains at least one `contains` phrase (case/whitespace-insensitive). Passages were located manually in the source documents; page numbers are physical PDF pages (1-based).",
+  "questions": [
+    {
+      "id": "b1-q01", "bid_id": "Bid1",
+      "question": "What is the new due date for RFP JA-207652 after the addendums?",
+      "relevant": [{"file": "Addendum 2", "pages": [1], "contains": ["july 9, 2024"]}]
+    },
+    {
+      "id": "b1-q02", "bid_id": "Bid1",
+      "question": "When and how is the pre-proposal meeting held for the Dallas ISD computing devices RFP?",
+      "relevant": [
+        {"file": "FINAL.pdf", "pages": [2], "contains": ["pre-proposal meeting will be held"]},
+        {"file": "BidNet Direct.html", "contains": ["prebid conference: 06/10/2024"]}
+      ]
+    },
+    {
+      "id": "b1-q03", "bid_id": "Bid1",
+      "question": "What is the length of the contract and the renewal options?",
+      "relevant": [{"file": "FINAL.pdf", "pages": [2], "contains": ["three (3) year agreement", "not to exceed a total of 5 years"]}]
+    },
+    {
+      "id": "b1-q04", "bid_id": "Bid1",
+      "question": "What minimum warranty is required for student Chromebooks and Windows laptops?",
+      "relevant": [{"file": "Addendum 1", "pages": [1, 3], "contains": ["one-year warranty for student chromebooks"]}]
+    },
+    {
+      "id": "b1-q05", "bid_id": "Bid1",
+      "question": "How can vendors submit their proposals - electronically or on paper?",
+      "relevant": [{"file": "FINAL.pdf", "pages": [9], "contains": ["isupplier", "sealed envelope"]}]
+    },
+    {
+      "id": "b1-q06", "bid_id": "Bid1",
+      "question": "What are the minimum specifications for the Tier 3 Student Windows Laptop?",
+      "relevant": [{"file": "FINAL.pdf", "pages": [4, 5], "contains": ["tier 3 student windows laptop", "intel i5 13th gen"]}]
+    },
+    {
+      "id": "b1-q07", "bid_id": "Bid1",
+      "question": "Who is the buyer for this solicitation and what is the buyer's email?",
+      "relevant": [{"file": "FINAL.pdf", "pages": [2], "contains": ["jalzate@dallasisd.org"]}]
+    },
+    {
+      "id": "b1-q08", "bid_id": "Bid1",
+      "question": "What deployment services must be included with deliveries?",
+      "relevant": [{"file": "FINAL.pdf", "pages": [3], "contains": ["white glove services"]}]
+    },
+    {
+      "id": "b1-q09", "bid_id": "Bid1",
+      "question": "How many points is purchase price worth in the proposal evaluation?",
+      "relevant": [{"file": "FINAL.pdf", "pages": [30], "contains": ["purchase price - 40 points"]}]
+    },
+    {
+      "id": "b1-q10", "bid_id": "Bid1",
+      "question": "Does Form 1295 have to be submitted with the RFP response or after award?",
+      "relevant": [{"file": "Addendum 1", "pages": [4], "contains": ["form 1295 should be submitted with the rfp response"]}]
+    },
+    {
+      "id": "b1-q11", "bid_id": "Bid1",
+      "question": "Which purchasing cooperative is Dallas ISD a member of?",
+      "relevant": [{"file": "FINAL.pdf", "pages": [19], "contains": ["educational purchasing cooperative of north texas"]}]
+    },
+    {
+      "id": "b1-q12", "bid_id": "Bid1",
+      "question": "Is laser etching required on the stand-alone monitors or all-in-one computers?",
+      "relevant": [{"file": "Addendum 1", "pages": [1], "contains": ["only require etching on laptops"]}]
+    },
+    {
+      "id": "b1-q13", "bid_id": "Bid1",
+      "question": "What imaging or enrollment is required for Windows devices and Chromebooks?",
+      "relevant": [{"file": "Addendum 1", "pages": [4], "contains": ["autopilot is required"]}]
+    },
+    {
+      "id": "b2-q01", "bid_id": "Bid2",
+      "question": "What is the proposal due date for the Dell laptop PORFP?",
+      "relevant": [
+        {"file": "PORFP", "pages": [1], "contains": ["proposal due date and time: | 06/10/2024", "06/10/2024"]},
+        {"file": "BidNet Direct.html", "contains": ["closing date: 06/10/2024"]}
+      ]
+    },
+    {
+      "id": "b2-q02", "bid_id": "Bid2",
+      "question": "Which affidavit must the Master Contractor provide?",
+      "relevant": [{"file": "PORFP", "pages": [2], "contains": ["mercury affidavit"]}]
+    },
+    {
+      "id": "b2-q03", "bid_id": "Bid2",
+      "question": "How soon after award must the laptops be delivered?",
+      "relevant": [{"file": "PORFP", "pages": [2], "contains": ["delivery within 45 days"]}]
+    },
+    {
+      "id": "b2-q04", "bid_id": "Bid2",
+      "question": "What processor and memory are in the Dell Latitude 5550 configuration?",
+      "relevant": [{"file": "Dell_Laptop_Specs", "pages": [1], "contains": ["core ultra 5 125u", "16 gb: 2 x 8 gb"]}]
+    },
+    {
+      "id": "b2-q05", "bid_id": "Bid2",
+      "question": "What extended warranty is required for the Dell laptops?",
+      "relevant": [{"file": "PORFP", "pages": [3], "contains": ["hardware warranty"]}]
+    },
+    {
+      "id": "b2-q06", "bid_id": "Bid2",
+      "question": "Who is the agency point of contact and what is her phone number?",
+      "relevant": [
+        {"file": "PORFP", "pages": [3], "contains": ["tamaira hawkins"]},
+        {"file": "BidNet Direct.html", "contains": ["tamaira hawkins"]}
+      ]
+    },
+    {
+      "id": "b2-q07", "bid_id": "Bid2",
+      "question": "Where should invoices be emailed and what must they include?",
+      "relevant": [{"file": "PORFP", "pages": [2], "contains": ["stoaccountspayable@treasurer.state.md.us"]}]
+    },
+    {
+      "id": "b2-q08", "bid_id": "Bid2",
+      "question": "WD22TB4 quantity",
+      "relevant": [
+        {"file": "PORFP", "pages": [3], "contains": ["wd22tb4"]},
+        {"file": "BidNet Direct.html", "contains": ["wd22tb4"]}
+      ]
+    },
+    {
+      "id": "b2-q09", "bid_id": "Bid2",
+      "question": "What must the vendor declare about mercury content in the products?",
+      "relevant": [{"file": "Mercury_Affidavit", "pages": [1], "contains": ["do not contain mercury"]}]
+    },
+    {
+      "id": "b2-q10", "bid_id": "Bid2",
+      "question": "Which master contract must a vendor hold to be eligible to bid?",
+      "relevant": [{"file": "PORFP", "pages": [1], "contains": ["060b5400007"]}]
+    },
+    {
+      "id": "b2-q11", "bid_id": "Bid2",
+      "question": "What does the contract affidavit require regarding a drug and alcohol free workplace?",
+      "relevant": [{"file": "Contract_Affidavit", "pages": [2, 3], "contains": ["drug and alcohol"]}]
+    },
+    {
+      "id": "b2-q12", "bid_id": "Bid2",
+      "question": "SKU 210-BLYZ",
+      "relevant": [{"file": "Dell_Laptop_Specs", "pages": [1], "contains": ["210-blyz"]}]
+    }
+  ]
+}
