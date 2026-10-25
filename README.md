@@ -6,6 +6,10 @@ A hybrid search engine over bid / RFP documents (PDF + HTML, including addendums
 system is covered by offline tests with stub models and has been run live on Bid1, Bid2 and an
 unseen RFP (`Bid5_Unseen_RFP`, §3).
 
+## Demo video
+
+▶️ [Watch the demo on Google Drive](https://drive.google.com/file/d/1ck2irWuxxiAe6O8sHbV5W8evWTl0JXK_/view?usp=sharing)
+
 ## Key features
 
 * **Parsing:** Docling for PDFs (layout, TableFormer tables, OCR) with a PyMuPDF fallback and a

@@ -24,3 +24,6 @@ output/partial_*/
 .DS_Store
 Thumbs.db
 .claude/settings.local.json
+
+# demo video (hosted on Google Drive; too large for GitHub)
+Demo_video/
